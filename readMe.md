@@ -1,13 +1,13 @@
 # JavaScript Practice Projects
 
-This repository contains a collection of JavaScript projects that I practiced while taking Jonas Schmedtmann's JavaScript course. These projects helped me improve my JavaScript skills and gain a better understanding of the language.
+This repository contains a collection of JavaScript projects that I practiced while taking [Jonas Schmedtmann's](https://github.com/jonasschmedtmann) JavaScript course. These projects helped me improve my JavaScript skills and gain a better understanding of the language.
 
 ## Table of contents
 
-- [Dice Rolling Game](#Dice Rolling Game)
-- [Guess Number Game](#Guess Number Game)
-- [Pop-up Window](#Pop-up Window)
-- [Useful resources](#Useful resources)
+- [Dice Rolling Game](https://github.com/ellenWang918/JavaScript-Practice-Projects/edit/main/readMe.md#dice-rolling-game)
+- [Guess Number Game](https://github.com/ellenWang918/JavaScript-Practice-Projects/edit/main/readMe.md#guess-number-game)
+- [Pop-up Window](https://github.com/ellenWang918/JavaScript-Practice-Projects/edit/main/readMe.md#pop-up-window)
+- [Useful resources](https://github.com/ellenWang918/JavaScript-Practice-Projects/edit/main/readMe.md#useful-resources)
 
 ## Dice Rolling Game
 
@@ -59,7 +59,7 @@ number = Math.trunc(Math.random() * 20 + 1);
 
 Use js way to write simple function.
 
-````js
+```js
 document.querySelector('.message').textContent = guess > number ? 'Too High!' : 'Too Low!';
 ```
 
@@ -79,4 +79,3 @@ if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
 ## Useful resources
 
 - [MDN Web Docs](https://developer.mozilla.org/en-US/) - The best doc for new web developers.
-````
